@@ -1,0 +1,175 @@
+:root{
+    --pr-color : #39A7FF;
+    --sc-color : #87C4FF;
+    --tr-color : #E0F4FF;
+    --pg-color : #1276D7;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #f3fff4; */
+    background: linear-gradient(140deg, var(--pg-color), black);
+}
+
+
+.navbar{
+    z-index: 3;
+}
+
+.nav-color{
+    background: linear-gradient(140deg, var(--pg-color), black);
+    transition: all ease-in 0.5s;
+}
+
+.bg-transparent{
+    transition: all ease-in 0.5s;
+}
+
+
+*{
+    z-index: 2;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+
+.nav-link{
+    font-weight: 24px;
+    font-weight: 600;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+
+.button-secondary{
+    width: 126px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+    color: var(--pr-color);
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+.button-secondary:hover{
+    background-color: var(--pr-color);
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.button-primary{
+    width: 126px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+}
+
+/* Hero Section */
+
+#hero{
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url(bg.png);
+    /* background-image: url(imgbg1-1.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: 1400px;
+}
+
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Set height of image */
+}
+
+
+.img-hero{
+    height: 100%;
+}
+
+.hero-tagline h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    color: #fff;
+    filter: brightness(100%);
+}
+
+.hero-tagline p{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    filter: brightness(100%);
+
+}
+
+#menu{
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url(bg.png);
+    /* background-image: url(imgbg1-1.jpg); */
+    height: 100vh;
+    width: 100%;
+    background-size: 1400px;
+}
+
+#menu .container1 {
+    margin-top: 100px; /* Adjust the distance from navigation */
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Set height of image */
+}
+
+
+.img-hero{
+    height: 100%;
+}
+
+.hero-tagline h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    color: #fff;
+    filter: brightness(100%);
+}
+
+.hero-tagline p{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    filter: brightness(100%);
+
+}
+
